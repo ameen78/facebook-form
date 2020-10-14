@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #ddd3bf;
+}
+h1{
+    color: hsl(240, 65%, 62%);
+    font-size: 3rem;
+    padding:  20px ;
+}
+.account{
+      width: 450px;
+      height: 500px;
+      margin:  0 35%;
+    background-color: #eee5e5;
+    padding:  30px 20px;
+    border-radius: 0.5rem;
+}
+.creat{
+    font-size: 1.2rem;
+    padding: 5px 0 10px 0;
+    border-bottom: 2px ridge;
+    height: 11vh;  
+}
+.main{
+  margin-top: 20px;
+}
+.fn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mail{
+    width: 53vh;
+    height: 4.7vh;
+    border: 2px ridge;
+    border-radius: 0.4rem;
+    padding: 8px;
+}
+.pass  {
+    width: 27vh;
+    height: 4.8vh;
+    border-radius: 0.4rem;
+    border: 2px ridge;
+    padding: 8px;
+}
+
+.main :hover{
+    border-color: skyblue;
+}
+.bith{
+    margin: 10px;
+}
+.bith select {
+    border: 2px ridge;
+    width: 123px;
+    height: 40px;
+    border-radius: 0.5rem;
+} 
+h4{
+   padding: 0px 260px 0 0  ;
+}  
+   button{
+    width: 26vh;
+    height: 5vh;
+    background-color: hsla(120, 77%, 29%, 0.904);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0 10px 0;
+}
+ /* button:hover{
+     box-shadow: blueviolet 2px ;
+     animation-duration: 2s;
+     animation: 50%;
+ } */
+ .gen{
+    border: 2px ridge;
+    padding: 10px 13px;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 123px;
+    height: 45px;
+    
+ }
+ .ratio{
+     display: flex;
+     justify-content: space-evenly;
+ }
