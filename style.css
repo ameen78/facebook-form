@@ -5,89 +5,118 @@
 }
 body{
     text-align: center;
-    background-color: #ddd3bf;
+    background-color: rgb(194, 184, 184);
+} 
+header{
+    font-family: sans-serif;
+  border-bottom: 1.5px ridge;
 }
-h1{
-    color: hsl(240, 65%, 62%);
-    font-size: 3rem;
-    padding:  20px ;
-}
-.account{
-      width: 450px;
-      height: 500px;
-      margin:  0 35%;
-    background-color: #eee5e5;
-    padding:  30px 20px;
-    border-radius: 0.5rem;
-}
-.creat{
-    font-size: 1.2rem;
-    padding: 5px 0 10px 0;
-    border-bottom: 2px ridge;
-    height: 11vh;  
+.easy{
+  height: 15vh;
+  position: relative;
+  top: 15px;
+  right:120px;
+  font-size: 1.4rem;
 }
 .main{
-  margin-top: 20px;
+    background-color: white;
+    width: 30vw;
+    height: 72vh;
+    position: relative;
+    top: 40px;
+    left: 440px;
 }
-.fn{
+.txt input{
+    width: 14vw;
+    height: 5vh;
+    border-radius: 0.3rem ;
+    border: 1px ridge;
+    padding: 0 0 0 5px;
+}
+.txt{
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    height: 9vh;
+}
+.mail input{
+    width: 28.7vw;
+    height: 5vh;
+    border-radius: 0.3rem ;
+    border: 1px ridge;
+    padding: 0 0 0 5px
 }
 .mail{
-    width: 53vh;
-    height: 4.7vh;
-    border: 2px ridge;
-    border-radius: 0.4rem;
-    padding: 8px;
+    height: 14vh;
+    width: 30vw;
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.pass  {
-    width: 27vh;
-    height: 4.8vh;
-    border-radius: 0.4rem;
-    border: 2px ridge;
-    padding: 8px;
+.birth{
+    height: 10vh;
 }
-
-.main :hover{
-    border-color: skyblue;
+.birth h4{
+    text-align: left;
+    position: relative;
+    left: 15px;
+    font-size: 18px;
 }
-.bith{
-    margin: 10px;
+.birth select{
+     width: 9.2vw;
+     height: 5vh;
+     border-radius: 0.3rem ;
+     border: 1px ridge;
+     padding: 0 0 0 5px;
+     font-size: 16px;
 }
-.bith select {
-    border: 2px ridge;
-    width: 123px;
-    height: 40px;
-    border-radius: 0.5rem;
-} 
-h4{
-   padding: 0px 260px 0 0  ;
-}  
-   button{
-    width: 26vh;
+.gen{
+    height: 13vh;
+}
+.gen h4{
+     text-align: left;
+     position: relative;
+     left: 15px;
+     font-size: 18px;
+}
+.gen label{
+   font-size: 1.3rem;
+}
+.sub{
+    border: 1px ridge;
+    width: 8vw;
     height: 5vh;
-    background-color: hsla(120, 77%, 29%, 0.904);
+    border-radius: 0.3rem ;
+    border: 1px ridge;
+}
+.sub input{
+  position: relative;
+  top: 5px;
+}
+.sub label{
+     position: relative;
+     top: 5px;
+}
+.gen-sub{
+    display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     top: 10px;
+}
+.final{
+    height: 14vh;
+    position: relative;
+    top: 10px;
+}
+.final input{
+    width: 12vw;
+    height: 5vh;
+    background-color: rgb(14, 167, 14);
+    font-size: 19px;
+    color: white;
     border: none;
     border-radius: 0.5rem;
-    color: white;
-    font-size: 1.2rem;
-    margin: 20px 0 10px 0;
 }
- /* button:hover{
-     box-shadow: blueviolet 2px ;
-     animation-duration: 2s;
-     animation: 50%;
- } */
- .gen{
-    border: 2px ridge;
-    padding: 10px 13px;
-    background-color: white;
-    border-radius: 0.5rem;
-    width: 123px;
-    height: 45px;
-    
- }
- .ratio{
-     display: flex;
-     justify-content: space-evenly;
- }
